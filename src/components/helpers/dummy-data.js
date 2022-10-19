@@ -7,7 +7,7 @@ export const PRODUCTS = [{
     slug:"swirl-earrings",
     images: [{
         id: "img1",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/pat5UN8wSECZsXfiof7h"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/pat5UN8wSECZsXfiof7h"
     }],
     isFeatured: false,
 },
@@ -20,7 +20,7 @@ export const PRODUCTS = [{
     slug: "discs-bracelet",
     images: [{
         id: "img2",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/ZGMr50jTQ2YgMdxxQipF"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/ZGMr50jTQ2YgMdxxQipF"
     }],
     isFeatured: false,
 },
@@ -33,7 +33,7 @@ export const PRODUCTS = [{
     slug: "discs-necklace",
     images: [{
         id: "img3",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/FiOGI97XTRGqTum6txyQ"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/FiOGI97XTRGqTum6txyQ"
     }],
     isFeatured: false,
 },
@@ -46,7 +46,7 @@ export const PRODUCTS = [{
     slug: "sea-necklace",
     images: [{
         id: "img4",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/ZGMr50jTQ2YgMdxxQipF"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/ZGMr50jTQ2YgMdxxQipF"
     }],
     isFeatured: false,
 },
@@ -59,7 +59,7 @@ export const PRODUCTS = [{
     slug: "fox-terrier",
     images: [{
         id: "img5",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/otO6BpHR1WRvvBnOc3Cg"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/otO6BpHR1WRvvBnOc3Cg"
     }],
     isFeatured: false,
 },
@@ -72,10 +72,10 @@ export const PRODUCTS = [{
     slug: "heart",
     images: [{
         id: "img61",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/zHg1P6kcQu8mLPY2j8oq"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/zHg1P6kcQu8mLPY2j8oq"
     },
     {   id: "img62",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/THUp3zR8RHCMqRyIiKfx"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/THUp3zR8RHCMqRyIiKfx"
     }],
     isFeatured: false,
 },
@@ -83,25 +83,51 @@ export const PRODUCTS = [{
     id: "p7",
     name: "Roundies",
     description: "Different necklaces with round beads",
-    price: 375,
+    price: 460,
     category: "necklaces",
     slug: "roundies",
     images: [{
         id: "img71",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/iVtY2NL2TVWhvqiRIePV"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/iVtY2NL2TVWhvqiRIePV"
     },
     {
         id: "img72",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/Ce3Se9j1TpWRQ2BSUfzM"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/Ce3Se9j1TpWRQ2BSUfzM"
     },
     {
         id: "img73",
-        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:375/output=format:png/LdvKZQpbReWebQVQw86t"
+        url: "https://media.graphassets.com/resize=fit:crop,height:250,width:460/output=format:png/LdvKZQpbReWebQVQw86t"
     },
     {
         id: "img74",
         url: "https://media.graphassets.com/resize=fit:crop,height:250,width:250/output=format:png/ZGMr50jTQ2YgMdxxQipF"
-    },
+    }
     ],
     isFeatured: false,
 }];
+
+export const CATEGORIES = [{ 
+        id: "cat1",    
+        slug: "necklaces",
+        name: "necklaces",
+        description: "necklaces vary in length and material"
+    },
+    {
+        id: "cat2",
+        slug: "bracelets",
+        name: "bracelets",
+        description: "bracelets vary in length and material"
+    },
+    {
+        id: "cat3",
+        slug: "earrings",
+        name: "earrings",
+        description: "earrings vary in length and material"
+    },
+    {
+        id: "cat4",
+        slug: "single-beads",
+        name: "single beads",
+        description: "single beads vary in length and material"
+    }
+];
