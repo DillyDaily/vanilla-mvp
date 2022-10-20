@@ -3,7 +3,7 @@ import ProductHome from './components/products/ProductHome';
 
 const App = () => {
   return (
-    < ChakraProvider > 
+    < ChakraProvider> 
       <h1>Home Page</h1>
       <ProductHome />
     </ChakraProvider>

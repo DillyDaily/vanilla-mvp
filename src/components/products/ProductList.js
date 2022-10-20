@@ -6,7 +6,7 @@ const ProductList = (props) => {
     // console.log("PROD LISTTT Props: ", props)
 
     return(
-            <SimpleGrid columns={[2, null, 4]} spacing='25px'>
+            <SimpleGrid columns={[1, null, 3]} spacing='20px'>
                 {products.map((product) => (
                     <ProductItem 
                     key={product.id}
