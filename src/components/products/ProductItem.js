@@ -1,9 +1,11 @@
-import { Box, Image, Center } from '@chakra-ui/react';
+import { Box, Image } from '@chakra-ui/react';
 import './ProductItem.css';
+import { usdPrice } from "../helpers/price-format";
 
 const ProductItem = (props) => {
     const { name, description, price, imgUrl } = props;
     console.log("PRODUCT ITEM PROPS, ", props)
+
     return(
         <Box className='product-item-container' 
             maxW='sm' 
@@ -28,7 +30,7 @@ const ProductItem = (props) => {
                     {description}
                 </Box>
                 <Box>
-                    ${price}
+                    {usdPrice(price)}
                 </Box>
             </Box>
             <Box py='4'>
