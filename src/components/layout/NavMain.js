@@ -4,7 +4,12 @@ import NavItem from './NavItem';
 const NavMain = (props) => {
     const { navItems } = props;
     return(
-        <UnorderedList>
+        <UnorderedList
+            display = "flex"
+            alignItems = "center"
+            flexDirection="row"
+            styleType="none"
+        >
                 {navItems.map((navItem) => (
                     <NavItem 
                     key={navItem.id}

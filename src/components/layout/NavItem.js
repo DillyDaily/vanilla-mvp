@@ -4,10 +4,13 @@ import { Link, ListItem } from '@chakra-ui/react';
 const NavItem = (props) => {
     const { title, slug } = props;
     const navLink= `/${title}/${slug}`
+
     return(
-        <Link href={navLink} alt={title}>
-            <ListItem>{title}</ListItem>
-        </Link>
+        <ListItem
+            p='3'
+        >
+            <Link href={navLink} alt={title}> {title} </Link>
+        </ListItem>
     );
 };
 
